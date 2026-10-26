@@ -8,6 +8,7 @@ plugins {
 
 dependencies {
     testImplementation(libs.junit)
+    implementation("org.snakeyaml:snakeyaml-engine:2.9")
 
     intellijPlatform {
         clion("2026.2.2")

@@ -45,5 +45,17 @@
                                second-keystroke="C"/>
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
+
+        <action
+                id="ru.student.cpptemplates.CheckLabNamingAction"
+                class="ru.student.cpptemplates.CheckLabNamingAction"
+                text="Check Lab Naming"
+                description="Check C++ identifier names against lab rules">
+            <keyboard-shortcut keymap="$default"
+                               first-keystroke="control alt shift T"
+                               second-keystroke="N"/>
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+
     </actions>
 </idea-plugin>
